@@ -49,7 +49,11 @@ Since exact algorithms are infeasible for large `n`, practical methods are used:
 
 ---
 
-### Example of Travelling Salesman Problem
+# Traveling Salesman Problem - Initial Graph
+
+This diagram represents the initial setup of a Traveling Salesman Problem (TSP) for 6 cities (A, B, C, D, E, F). Each directed edge shows the distance (in kilometers) between pairs of cities, based on the provided distance matrix. The salesman must start at city A, visit each city exactly once, and return to A, but this graph shows all possible connections before finding the optimal route.
+
+```mermaid
 graph TD;
     A[City A] -->|10| B[City B]
     A -->|15| C[City C]
@@ -86,7 +90,7 @@ graph TD;
     F -->|40| C
     F -->|16| D
     F -->|35| E
-
+```
 
 
 ## 🔹 Growth of Complexity Example
